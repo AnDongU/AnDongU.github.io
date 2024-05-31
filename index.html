@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="style.css">
+    <link href="https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo.css" rel="stylesheet">
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <title>Dongwoo An</title>
+</head>
+<body>
+    <div id='wrapper'>
+        <header>
+            <nav class="navbar">
+                <div class="navbar-logo">
+                    <a href="">AnDongWoo</a>
+                </div>
+                <div class="navbar-menu">
+                    <ul>
+                        <li><a href="#about#" class="about-link" onclick="aboutClick()">about</a></li>
+                        <li><a href="#activity#" class="activity-link" onclick="activityClick()">activity</a></li>
+                        <li><a href="#timetable#" class="timetable-link" onclick="timetableClick()">timetable</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="container">
+            <section id="about"class="about-content">
+                <div class="img-inform-row">
+                    <div class="image"><img src="andongwoo.jpg" alt="myPicture"class="image1"></div>
+                    <div class="information">
+                        <h2>이름</h2><h4>안동우</h4>
+                        <h2>생년월일</h2><h4>2000.12.04</h4>
+                        <h2>이메일</h2><h4 class="email"><a href="mailto:inside3596@kangwon.ac.kr" class="email">inside3596@kangwon.ac.kr</a></h4>
+                        <h2>학력</h2><h4>강원대학교 컴퓨터공학과</h4>
+                    </div>
+                </div>
+                <div class="text"><p style="line-height: 1.5;">&nbsp 안녕하세요. 저는 강원대학교 컴퓨터공학과 학부생 안동우입니다. 자료구조, 웹 프로그래밍과 고급 파이썬 프로그래밍 수업들을
+                    수강하며 알고리즘 문제를 풀고, 홈페이지 제작을 통해 이론뿐 아니라 코딩 능력을 강화하고 있습니다. 또한, 이산수학과 논리회로 수업을 통해 디지털의
+                    이산적인 부분을 이해하고, HW의 기초적인 부분을 학습하고 있습니다. <br>&nbsp 인공지능 분야, 특히 컴퓨터 비전에 관심이 있습니다. 카메라를 통해 
+                    시각 데이터를 처리하는 것을 일상생활에 활용하면 큰 편리함을 줄 수 있습니다. 저는 특히 스마트 홈 시스템에 컴퓨터 비전 어플리케이션을 융합시키는 
+                    것에 관심이 있습니다. 예를 들어, 가정 내에 안전을 위해 CCTV를 통해 침입자를 판별하여 경고하고, 노약자의 움직임을 파악하여 위험 상황을 감지하는 
+                    시스템을 개발하고 싶습니다. <br>&nbsp 앞으로도 계속해서 다양한 기술을 배우고, 이론에 그치지 않고 실제 문제에 적용하며 의미 있는 시스템을 개발하는 
+                    개발자가 될것입니다.
+                </p></div>
+            </section>
+            <section id="activity"class="activity-content active">
+                <div class="projects">
+                    <h2>Projects</h2>
+                    <div class="projects-container">
+                        <div class="project-box">
+                            <h3>Fomepage</h3><hr><br>
+                            <a href=""><img src="hompage.png" alt="fompage" class="project-img link-img"></a>
+                        </div>
+                        <div class="project-box underConstruction1">
+                            <h3>Project1</h3><hr><br>
+                            <img src="underConstruction.png" alt="underConstruction" class="project-img">
+                        </div>
+                        <div class="project-box underConstruction">
+                            <h3>Project2</h3><hr><br>
+                            <img src="underConstruction.png" alt="underConstruction" class="project-img">
+                        </div>
+                        <div class="project-box underConstruction">
+                            <h3>Project3</h3><hr><br>
+                            <img src="underConstruction.png" alt="underConstruction" class="project-img">
+                        </div>
+                    </div>
+                </div> 
+                <div class="skills">
+                    <h2>Skills</h2>
+                    <div class="skills-container">
+                        <div class="skill-box">
+                            <h3>Frontend</h3><hr><br>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" />
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" />
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg" />
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jquery/jquery-original-wordmark.svg" />
+                        </div>
+                        <div class="skill-box">
+                            <h3>Backend</h3><hr><br>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" />
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" />
+                        </div>
+                    </div>
+                </div> 
+            </section>
+            <section id="timetable" class="timetable-content active">
+                <table>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>월</th>
+                            <th>화</th>
+                            <th>수</th>
+                            <th>목</th>
+                            <th>금</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th rowspan="2">09:00</th>
+                            <td></td><td></td><td></td><td></td><td></td>
+                        </tr>
+                        <tr><td></td><td></td><td></td><td></td><td></td></tr>
+                        <tr>
+                            <th rowspan="2">10:00</th>
+                            <td class="bottom data"></td><td></td><td></td><td class="bottom data"></td><td class="bottom logic"></td>
+                        </tr>
+                        <tr><td class="bottom data">자료</td><td></td><td></td><td class="bottom data">자료</td><td class="bottom logic"></td></tr>
+                        <tr>
+                            <th rowspan="2">11:00</th>
+                            <td class="bottom data">구조</td><td></td><td></td><td class="bottom data">구조</td><td class="bottom logic">논리</td>
+                        </tr>
+                        <tr><td class="data"></td><td></td><td></td><td class="data"></td><td class="bottom logic">회로</td></tr>
+                        <tr>
+                            <th rowspan="2">12:00</th>
+                            <td class="bottom eng"></td><td></td><td></td><td class="bottom eng"></td><td class="bottom logic"></td>
+                        </tr>
+                        <tr><td class="bottom eng">기본<br>영어</td><td></td><td></td><td class="bottom eng">기본<br>영어</td><td class="logic"></td></tr>
+                        <tr>
+                            <th rowspan="2">13:00</th>
+                            <td class="eng"></td><td></td><td></td><td class="eng"></td><td></td>
+                        </tr>
+                        <tr><td></td><td></td><td></td><td></td><td></td></tr>
+                        <tr>
+                            <th rowspan="2">14:00</th>
+                            <td></td><td class="bottom web"></td><td></td><td></td><td class="bottom web"></td>
+                        </tr>
+                        <tr><td></td><td class="bottom web">웹</td><td></td><td></td><td class="bottom web">웹</td></tr>
+                        <tr>
+                            <th rowspan="2">15:00</th>
+                            <td></td><td class="bottom web">프로그래밍</td><td></td><td></td><td class="bottom web">프로그래밍</td>
+                        </tr>
+                        <tr><td></td><td class="web"></td><td></td><td></td><td class="web"></td></tr>
+                        <tr>
+                            <th rowspan="2">16:00</th>
+                            <td></td><td class="bottom py"></td><td class="bottom py"></td><td></td><td></td>
+                        </tr>
+                        <tr><td class="bottom math"></td><td class="bottom py">고급 파이썬</td><td class="bottom py">고급 파이썬</td><td class="bottom math"></td><td></td></tr>
+                        <tr>
+                            <th rowspan="2">17:00</th>
+                            <td class="bottom math">이산<br>수학</td><td class="bottom py">프로그래밍</td><td class="bottom py">프로그래밍</td><td class="bottom math">이산<br>수학</td><td></td>
+                        </tr>
+                        <tr><td class="math"></td><td class="py"></td><td class="py"></td><td class="math"></td><td></td></tr>
+                    </table>
+            </section>   
+        </div>
+    </div>
+</footer><p style="font-size:13px">Copyright @ 2024.Dongwoo An (inside3596 (at) kangwon.ac.kr) All rights reserved.</p></footer>
+</body>
+</html>
